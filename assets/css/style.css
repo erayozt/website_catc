@@ -1807,12 +1807,14 @@ body .modal-backdrop {
 .v2_about_us_section{
     margin-top: 560px;
     padding-top: 133px;
-    padding-bottom: 0px;
+    /* padding-bottom: 0px; */
+    padding-bottom: 500px; 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
+    margin: auto;
 }
 .v2_about_overlay{
     height: 70%;
@@ -3052,6 +3054,9 @@ div.latest-item .hover-shape-bg{
     padding: 50px 25px;
     position: relative;
     z-index: 1;
+    /* margin: auto; */
+    /* margin:0 auto 0 auto; */
+    /* display: table; */
 }
 .bithu_v2_owl_carousel_sect::-webkit-scrollbar{
     display: none;
@@ -4804,7 +4809,7 @@ Comming Soon
     z-index: 2;
 }
 .buthu_coming_soon_bg{
-    background: url(../images/bg/pixel_bg.svg);
+    background: url(/assets/images/nft/v2_banner_bG.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -4815,17 +4820,7 @@ Comming Soon
     width: 100%;
     z-index: 0
 }
-.buthu_coming_soon_bg_overlay{
-    background: url(../images/bg/coming-soon-grain-texture.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    opacity: 0.7;
-    position: relative;
-    z-index: 1;
-}
+
 .buthu_coming_soon_body{
     display: flex;
     align-items: center;
@@ -6032,7 +6027,7 @@ Collections
 
 .colour-catc{
     position: absolute;
-    left: 400px;
+    left: 130px;
     top:200px;
     height: auto;
     width: auto;
@@ -6040,11 +6035,13 @@ Collections
     justify-content: center;
     align-items: stretch;
     flex-flow: row;
+    /* margin: auto; */
+    
 }
 
 .black-catc{
     position: absolute;
-    left: 400px;
+    left: 130px;
     top:200px;
     height: 400px;
     height: auto;
@@ -6053,6 +6050,7 @@ Collections
     justify-content: center;
     align-items: stretch;
     flex-flow: row;
+    /* margin: auto; */
 }
 .black-catc .c-div{
     opacity: 0.9;
