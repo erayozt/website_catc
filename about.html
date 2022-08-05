@@ -28,7 +28,7 @@
         <!-- responsive css -->
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
     </head>
-    <body>
+	<body>
         <!--Preloader area start here-->
         <section class="loader_first">
             <div class="loader_first_inner">
@@ -38,7 +38,7 @@
         <!--Preloader area End here-->
         
         <!--Header Start-->
-        <div class="bithu_header inner-header bithu-inner-header" id="navbar">
+        <div class="bithu_header" id="navbar">
             <div class="container">
                 <!-- Main Menu Start -->
                 <div class="bithu_menu_sect">
@@ -47,7 +47,7 @@
                             <a href="index.html"><img src="assets/images/logo.png" alt="logo"/></a>
                         </div>
                     </div>
-                    <div class="bithu_menu_right_sect bithu_v1_menu_right_sect">
+                    <div class="bithu_menu_right_sect bithu_v2_menu_right_sect">
                         <div class="bithu_menu_list">
                             <ul>
                                 <li><a href="#home">Home</a></li>
@@ -145,11 +145,12 @@
                             </ul>
                         </div>
                         <div class="bithu_menu_right_buttons">
-                            <ul class="header_social_links">
-                                <li><a href="#"><img src="assets/images/icon/opensea.svg" alt="" /></a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
-                            </ul>
+                            <button class="join_btn hov_shape_show">
+                                <img src="assets/images/icon/dis_logo.svg" alt="" />Join
+                                <span class="hov_shape1"><img src="assets/images/icon/hov_shape_s.svg" alt="" /></span>
+                                <span class="hov_shape2"><img src="assets/images/icon/hov_shape_s.svg" alt="" /></span>
+                                <span class="square_hov_shape"></span>
+                            </button>
                             <button class="menu_bar"><i class="fa-solid fa-bars"></i></button>
                             <button class="connect_btn hov_shape_show" data-bs-toggle="modal" data-bs-target="#connectModal">
                                 <img src="assets/images/icon/connect_wallet.svg" alt="" />CONNECT
@@ -160,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Main Menu END -->
+                <!-- Main Menu End -->
                 
                 <!-- Mobile Menu Start -->
                 <div class="bithu_mobile_menu" id="bithu_mobile_menu">
@@ -216,86 +217,176 @@
                 <!-- Mobile Menu End -->
             </div>
         </div>
-        <!--Header End-->
+        <!-- Header Section End -->
 
-        <!-- Breadcrumbs Section Start -->
-        <div class="bithu-breadcrumbs-section" id="home">
+        <!-- Banner Section Start -->
+
+        <!-- Banner Section End -->
+
+          <!-- About Us section Start -->
+          <div class="v2_about_us_section" id="about">
+           
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="breadcrumbs-area sec-heading">
-                            <div class="sub-inner mb-15">
-                                <a class="breadcrumbs-link" href="index.html">Home</a><span class="sub-title"> Contact Us</span>
-                                <img class="heading-left-image" src="assets/images/icon/home-shape.png" alt="Steps-Image" />
+                <div class="bithu_title_section text-center">
+                    <h2><span class="shape_left"><img src="assets/images/icon/title_shapes2.svg" alt="" /></span>The Story<span><img src="assets/images/icon/title_shapes.svg" alt=""/></span></h2>
+                    <h3>About Us</h3>
+                </div>
+                <div class="aboutus-body-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="about-story-left">
+                                <h2 class="uppercase">The story <br>You Should Know</h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.</p>
+                                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original a latin professor.</p>
+                                
+                                <button class="btn-mid-green hov_shape_show">
+                                    Read Litepaper
+                                    <span class="hov_shape1"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
+                                <span class="hov_shape2"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
+                                <span class="square_hov_shape"></span>
+                                </button>
                             </div>
-                            <h2><a class="title" href="#">Contact us</a></h2>
                         </div>
+                        <div class="col-md-6">
+                            <div class="about-story-right">
+                                <ul>
+                                    <li><span><img src="assets/images/nft/story-img1.png" alt="img" class="img-fluid" /></span></li>
+                                    <li><span><img src="assets/images/nft/story-img2.png" alt="img" class="img-fluid" /></span></li>
+                                    <li><span><img src="assets/images/nft/story-img3.png" alt="img" class="img-fluid" /></span></li>
+                                    <li><span><img src="assets/images/nft/story-img4.png" alt="img" class="img-fluid" /></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="how_to_mint_sect">
+                        <div class="how_to_mint_container">
+                            <div class="bithu_title_section md-pb-20">
+                                <h2>Easy steps<img src="assets/images/icon/title_shapes.svg" alt="" /></h2>
+                                <h3>How to mint</h3>
+                            </div>
+                            <div class="how_to_mint_content">
+                                <ul>
+                                    <li>
+                                        <h4 class="green">1</h4>
+                                        <p>Connect Your Wallet</p>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="blue">2</h4>
+                                        <p>Select Your Quantity</p>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="yellow">3</h4>
+                                        <p>Confiem the Transaction</p>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="red">4</h4>
+                                        <p>Receive Your NFTs</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- About Us section END -->
+        
+
+      <!-- FAQ Section Start -->
+      <div class="bithu_faq_sect" id="faq">
+        <div class="container">
+            <div class="bithu_faq_content">
+                <div class="bithu_title_section text-center">
+                    <h2><span class="shape_left"><img src="assets/images/icon/title_shapes2.svg" alt="" /></span>Questions & Answers<span><img src="assets/images/icon/title_shapes.svg" alt="" /></span></h2>
+                    <h3>Frequently Asked <br>Questions</h3>
+                </div>
+                <div class="bithu_faq_questions bithu_v2_faq_questions">
+                    <div class="faq_bear_img">
+                        <img src="assets/images/nft/home_images/ape_girl (1).png" alt="img" />
+                    </div>
+                    <div class="faq_questions">
+                        <h2 class="accordion border_t0">
+                            What is MiNFT ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <h2 class="accordion">
+                            How we can buy and invest NFT ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.</p>
+                        </div>
+
+                        <h2 class="accordion">
+                            Why we should choose MiNFT ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <h2 class="accordion">
+                            Where we can buy and sell NFts ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <h2 class="accordion">
+                            How secure is this token ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <h2 class="accordion">
+                            What is your contract address ?
+                            <span>
+                                <img src="assets/images/icon/plus.svg" alt="" class="img-fluid IconPlus">
+                                <img src="assets/images/icon/munis.svg" alt="" class="Img-fluid IconMunise">
+                            </span>
+                        </h2>
+                        <div class="accordion-panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="faq_bg_wattermark">
+                        <img src="assets/images/bg/faq_bg_wattermark.png" alt="" />
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Breadcrumbs Section End -->
+    </div>
+    <!-- FAQ Section END -->
 
-        <!-- Contact Us Section Start -->
-        <div class="contuctus-body-section pt-85 pb-140">
-            <div class="container">
-                <h4 class="uppercase">SAY HELLO !</h4>
-                <h2 class="uppercase">We’d pleased To <br>Hear From You </h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="contuctus-form-sect">
-                            <form>
-                                <label for="name">YOUR Name *</label>
-                                <input type="text" placeholder="e.g.  Roe Smith" name="name">
 
-                                <label for="mail">Email Addres *</label>
-                                <input type="mail" placeholder="e.g.  example@gmail.com" name="mail">
-
-                                <label for="phnNo">Phone Number</label>
-                                <input type="text" placeholder="e.g.  +55 365 256 2556" name="e.g.  +55 365 256 2556">
-
-                                <label for="message">Message *</label>
-                                <textarea name="message" placeholder="Type your Message"></textarea>
-
-                                <button class="btn-mid-green hov_shape_show">
-                                    Submit Now
-                                    <span class="hov_shape1"><img src="assets/images/icon/hov_shape_L_dark.svg" alt=""></span>
-                                    <span class="hov_shape2"><img src="assets/images/icon/hov_shape_L_dark.svg" alt=""></span>
-                                    <span class="square_hov_shape_dark"></span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contactus-right-sect">
-                            <div class="contactus-address-info-sect">
-                                <h4 class="uppercase">Contact Info</h4>
-                                <div class="contactus-address-info">
-                                    <span><img src="assets/images/icon/call-outgoing.svg" alt="icon" class="img-fluid" /></span>
-                                    <div class="contactinfo-text">
-                                        <h5>Call us</h5>
-                                        <p>Mobile: (+61) - 1990 - 6886</p>
-                                        <p>Hotline: 1800 - 1102</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="contactus-address-info">
-                                    <span><img src="assets/images/icon/sms-notification.svg" alt="icon" class="img-fluid" /></span>
-                                    <div class="contactinfo-text">
-                                        <h5>Mail us</h5>
-                                        <p>Info: ask@domain.com</p>
-                                        <p>Support: wearehere@domain.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-        <!-- Contact Us Section End -->
-
-        <!-- Bithu Footer Start -->
+          <!-- Bithu Footer Start -->
         <div class="bithu_v1_footer_sect footer-sec1">
             <div class="container">
                 <div class="row">
@@ -307,7 +398,7 @@
                     <div class="col-lg-6">
                         <div class="join_comunity_btns list-btn">
                             <button class="wishlist_btn hov_shape_show">
-                                <img src="assets/images/blog/black-img.png" alt="" />Collections 
+                                <img src="assets/images/blog/black-img.png" alt="" />MagicEden 
                                 <span class="hov_shape1"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
                                 <span class="hov_shape2"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
                                 <span class="square_hov_shape_dark"></span>
@@ -321,92 +412,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="star-image">
-                    <div class="star-1 rotated-style"><img src="assets/images/icon/star_6.svg" alt=""/></div>
-                    <div class="star-2 rotated-style"><img src="assets/images/icon/star_3.svg" alt=""/></div>
-                    <div class="star-3 rotated-style"><img src="assets/images/icon/star_1.svg" alt=""/></div>
-                    <div class="star-4 rotated-style"><img src="assets/images/icon/star_7.svg" alt="" /></div>
-                    <div class="star-5 rotated-style"><img src="assets/images/icon/star_4.svg" alt="" /></div>
-                    <div class="star-6 rotated-style"><img src="assets/images/icon/star_2.svg" alt="" /></div>
-                    <div class="star-7 rotated-style"><img src="assets/images/icon/star_5.svg" alt="" /></div>
-                </div>
-            </div>
-        </div>
-        <!-- Bithu Footer End -->
-
-        <!-- Bithu Main Footer Start -->
-        <div class="main-footer-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="footer_image">
-                            <a href="#"><img src="assets/images/blog/white-logo.png" alt=""></a>
-                            <p>Bithu is great solution for launch your NFT for minting. It uses a dictionary over 200 Latin words, combined with a handful.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-menu">
-                            <h5 class="menu-title">Site map</h5>
-                            <ul class="menu-list">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="#team">Roadmap</a></li>
-                                <li><a href="#faq">FAQs</a></li>
-                                <li><a href="blog.html">Articles</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-menu">
-                            <h5 class="menu-title">Company</h5>
-                            <ul class="menu-list">
-                                <li><a href="#">Whitepaper</a></li>
-                                <li><a href="#">Terms Canditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="footer_newsletter">
-                            <h5 class="menu-title">Subscribe Newsletter</h5>
-                            <div class="footer-button">
-                                <input type="text" name="text" placeholder="Email address" required="">
-                                <a href="#"><img src="assets/images/blog/arrow-icon.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bithu Main Footer End -->
-
-        <!-- Bithu Footer Start -->   
-        <div class="bithu_v1_main_footer bithu-footer">
-            <div class="footer_bottom footer-main">
-                <div class="footer_bottom_content">
-                    <span class="footer_shapes_left"><img src="assets/images/icon/footer_shapes_left.png" alt="" /></span>
-                    <span class="footer_shapes_right"><img src="assets/images/icon/footer_shapes_right.png" alt="" /></span>
-                    <div class="container">
-                        <div class="footer_menu">
-                            <div class="bottom_footer_left">
-                                <div class="copiright_text">
-                                    <a href="#">Copyright ©2022 Bithu, All rights reserved.</a>
-                                </div>
-                            </div>
-                            <a href="#" class="bact_to_top_btn"><img src="assets/images/icon/back_to_top.svg" alt="" /></a>
-                            <div class="bottom_footer_right">
-                                <ul>
-                                    <li><a href="#"><img src="assets/images/blog/list-img.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/blog/list-img2.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/blog/list-img3.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/blog/list-img4.png" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/blog/list-img5.png" alt=""> </a></li>
-                                    <li><a href="#"><img src="assets/images/blog/list-img6.png" alt=""> </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
         <!-- Bithu Footer End -->
@@ -501,13 +507,14 @@
             </div>
         </div>
         <!-- Modal Section End-->
-         
-         
+
+
+        
+        <!-- Meta Mask Connect -->
         <!-- jquery latest version -->
         <script src="assets/js/jquery.min.js"></script>
-        <!-- Meta Mask Connect -->
         <script src="assets/js/web3.min.js"></script>
-        <!-- modernizr js -->
+		<!-- modernizr js -->
         <script src="assets/js/modernizr-2.8.3.min.js"></script>
         <!-- Bootstrap v4.4.1 js -->
         <script src="assets/js/bootstrap.min.js"></script>
@@ -515,15 +522,16 @@
         <script src="assets/js/imagesloaded.pkgd.min.js"></script>
         <!-- wow js -->
         <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
         <!-- counter top js -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
         <!-- plugins js -->
         <script src="assets/js/plugins.js"></script>
+        <!-- Timer.js -->
+        <script src="assets/js/time-counter.js"></script>
         <!-- faq.js -->
         <script src="assets/js/faq.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
-        
-    </body>
+	</body>
 </html>

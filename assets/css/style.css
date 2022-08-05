@@ -203,7 +203,7 @@ body .dblock {
 .btn-mid-blue {
     height: 60px;
     width: 200px;
-    background: #5865F2;
+    background: #179cf0;
     border: none;
     text-transform: uppercase;
     box-sizing: border-box;
@@ -216,6 +216,24 @@ body .dblock {
     color: #ffffff;
 }
 .btn-mid-blue .btn_icon{
+    margin-right: 10px;
+}
+.btn-mid-dc {
+    height: 60px;
+    width: 200px;
+    background: #5865ef;
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+.btn-mid-dc .btn_icon{
     margin-right: 10px;
 }
 .btn-mid-transparent {
@@ -231,7 +249,7 @@ body .dblock {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
+    color: #0e0000;
 }
 .btn-mid-transparent .btn_icon{
     margin-right: 10px;
@@ -318,6 +336,7 @@ body .dblock {
 .bithu_title_section{
     position: relative;
     z-index: 1;
+    padding-bottom:10%;
 }
 .bithu_title_section h2 {
     font-family: 'Bakbak One';
@@ -538,7 +557,7 @@ body .modal-backdrop {
 }
 .header_social_links li a i{
     font-size: 20px;
-    color: #ffffff;
+    color: #0f0f0f;
 }
 .bithu_header.sticky {
     position: fixed;
@@ -561,7 +580,7 @@ body .modal-backdrop {
 }
 .mobile_menu_social_links li a i{
     font-size: 20px;
-    color: #ffffff;
+    color: #0e0d0d;
 }
 .bithu_menu_sect{
     height: 90px;
@@ -669,7 +688,7 @@ body .modal-backdrop {
     width: 49%;
 }
 .bithu_menu_list ul li ol li a:hover{
-    color: #ffffff;
+    color: #130808;
 }
 .bithu_menu_list ul li a {
     font-family: 'Bakbak One';
@@ -679,8 +698,20 @@ body .modal-backdrop {
     line-height: 22px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    /* hover: border-bottom: 2px solid #000;transition: all 0.6s ease-out; */
+    
+        
 }
+/*.bithu_menu_list:hover {
+    border-bottom: 2px solid #000;transition: all 0.6s ease-out; 
+}
+/* .bithu_menu_list:hover {
+    background-color: yellow;
+  } */
+
+
 .bithu_menu_right_sect{
     width: 85%;
     display: flex;
@@ -738,7 +769,7 @@ body .modal-backdrop {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
+    color: #0e0d0d;
     text-transform: uppercase;
 }
 .bithu_menu_right_sect button.connect_btn img{
@@ -900,7 +931,7 @@ body .modal-backdrop {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
+    color: #080808;
     text-transform: uppercase;
 }
 .mobile_menu_btns button.connect_btn img{
@@ -1807,8 +1838,6 @@ body .modal-backdrop {
 .v2_about_us_section{
     margin-top: 560px;
     padding-top: 133px;
-    /* padding-bottom: 0px; */
-    padding-bottom: 500px; 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2271,8 +2300,8 @@ body .modal-backdrop {
 }
 .team_bear_img{
     position: absolute;
-    left: 5%;
-    top: -150px;
+    left: 2%;
+    top: -148px;
 }
 .v2_team_overlay{
     background: transparent;
@@ -2297,8 +2326,8 @@ body .modal-backdrop {
 10. FAQ Section CSS
 ---------------------------------*/
 .bithu_faq_sect{
-    padding-bottom: 120px;
-    padding-top: 130px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .bithu_faq_content{
     max-width: 770px;
@@ -3050,8 +3079,8 @@ div.latest-item .hover-shape-bg{
 05. Owl Carousel CSS
 ---------------------------------*/
 .bithu_v2_owl_carousel_sect{
-    background: #08171F;
-    padding: 50px 25px;
+    background: #0dcaf0;
+    padding: 450px 0px;
     position: relative;
     z-index: 1;
     /* margin: auto; */
@@ -3187,7 +3216,7 @@ div.latest-item .hover-shape-bg{
 14. Bithu Footer Section CSS
 ---------------------------------*/
 .bithu_v1_footer_sect{
-    background: url(../images/bg/v1_footer_bg.png);
+   
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3520,7 +3549,7 @@ div.latest-item .hover-shape-bg{
     position: relative;
     padding-top: 75px;
     padding-bottom: 40px;
-    background: url(../images/bg/cta-left-bg.png);
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4822,24 +4851,46 @@ Comming Soon
 }
 
 .buthu_coming_soon_body{
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .buthu_cooming_soon_mashgard{
-    position: absolute;
+    <position: absolute;
     z-index: 0;
     max-height: 100%;
     overflow: hidden;
+    top: 1000px;
+
+}
+
+.bithu_mint_coming_soon_content{
+    <position: absolute;
+    z-index: 0;
+    max-height: 100%;
+    overflow: hidden;
+  
+
+}
+
+.uppercase{
+    
+        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+    
+
 }
 .buthu_cooming_soon_body_content{
     position: relative;
     max-width: 568px;
     margin: auto;
+    margin-top: 40%;
     text-align: center;
 }
 .buthu_cooming_soon_body_content h2{
+   
     font-size: 40px;
     color: #ffffff;
 }
@@ -4847,6 +4898,7 @@ Comming Soon
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
 }
 .coming_soon_timer .timer ul li {
     max-width: 100px;
@@ -4856,7 +4908,7 @@ Comming Soon
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.267);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     font-family: 'Bakbak One';
@@ -4866,7 +4918,7 @@ Comming Soon
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .coming_soon_timer .timer ul li span {
     font-family: 'Bakbak One';
@@ -4876,7 +4928,7 @@ Comming Soon
     line-height: 18px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
     bottom: -30px;
 }
@@ -4902,8 +4954,8 @@ Comming Soon
     justify-content: center;
 }
 .comming_son_notify_me_form form input {
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.664);
+    border: 2px solid rgba(255, 255, 255, 0.664);
     height: 60px;
     border-right: none;
     width: 320px;
@@ -4913,7 +4965,7 @@ Comming Soon
     font-weight: 500;
     font-size: 16px;
     line-height: 45px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .comming_son_notify_me_form form input::placeholder{
@@ -4921,7 +4973,7 @@ Comming Soon
 }
 
 .comming_son_notify_me_form form button {
-    background: #00FFA3;
+    background: #ffffff;
     height: 60px;
     width: 150px;
     
@@ -4947,6 +4999,8 @@ Comming Soon
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+
 
 
 /*--------------------

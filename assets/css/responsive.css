@@ -10,7 +10,21 @@
 * -----------------------------------------------------------------------------
 *
 **/
-@media only screen and (min-width: 992px) and (max-width: 1700px){
+@media only screen and (min-width: 992px) and (max-width: 2000px){
+  
+         .buthu_coming_soon_body{
+             /* max-height: 500px;  */
+            min-height: 993px;
+            height: auto;
+            padding-top: 85px;
+            padding-bottom: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            flex-direction: column;
+
+            
+        } 
     .buthu_mint1_body_right{
         padding-top: 10px;
     }
@@ -116,8 +130,8 @@
         margin-top: 20px;
     }
     .buthu_comming_soon_btns{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 70px;
+        margin-bottom: -40px;
     }
     
     .buthu_cooming_soon_body_content h2 {
@@ -680,10 +694,12 @@
 }
 @media only screen and (max-width: 991px) {
     .buthu_coming_soon_body{
+        /* max-height: 500px; */
         min-height: 694px;
         height: auto;
         padding-top: 85px;
         padding-bottom: 0px;
+        
     }
     .bithu-mint-section{
         padding-bottom: 50px;
