@@ -48,9 +48,14 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
 }
+
+/* .bithu_menu_left_sect img {
+    max-width: 100%;
+    height: auto;
+} */
 
 p {
     margin: 0px;
@@ -588,6 +593,7 @@ body .modal-backdrop {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: -20%;
 }
 .bithu_menu_left_sect{
     display: flex;
@@ -694,12 +700,14 @@ body .modal-backdrop {
     font-family: 'Bakbak One';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 26px;
     line-height: 22px;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
+    color: #000000;
+    text-shadow: 2px 2px #ffffff;
+    margin-right: 70px;
+
     /* hover: border-bottom: 2px solid #000;transition: all 0.6s ease-out; */
     
         
@@ -738,6 +746,7 @@ body .modal-backdrop {
 .bithu_menu_right_sect button.join_btn img{
     margin-right: 10px;
 }
+
 .bithu_menu_right_sect button.join_btn{
     font-family: 'Bakbak One';
     font-style: normal;
@@ -756,21 +765,22 @@ body .modal-backdrop {
 }
 .bithu_menu_right_sect button.connect_btn {
     height: 50px;
-    min-width: 150px;
+    min-width: 220px;
     background: rgba(255, 255, 255, 0.2);
     border: none;
-    margin-left: 20px;
     box-sizing: border-box;
 }
 .bithu_menu_right_sect button.connect_btn{
     font-family: 'Bakbak One';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 22px;
     text-align: center;
     color: #0e0d0d;
     text-transform: uppercase;
+    background: none;
+    margin-left: 530px;
 }
 .bithu_menu_right_sect button.connect_btn img{
     margin-right: 10px;
@@ -4858,8 +4868,9 @@ Comming Soon
     flex-direction: column;
     
 }
+
 .buthu_cooming_soon_mashgard{
-    <position: absolute;
+    position: absolute;
     z-index: 0;
     max-height: 100%;
     overflow: hidden;
@@ -4868,7 +4879,7 @@ Comming Soon
 }
 
 .bithu_mint_coming_soon_content{
-    <position: absolute;
+    position: absolute;
     z-index: 0;
     max-height: 100%;
     overflow: hidden;
