@@ -1309,9 +1309,14 @@
 }
     @media only screen and (max-width: 912px) and (max-height: 1368px) {
 
+        .bithu_mint_coming_soon_content{
+
+            overflow: visible;
+        }
+
         .buthu_cooming_soon_body_content {
             font-size: 25px;
-            margin-top: 80%;
+            margin-bottom: -195%;
         }
        
     
